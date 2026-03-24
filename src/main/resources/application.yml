@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/eecp_db
+    username: root
+    password:
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
